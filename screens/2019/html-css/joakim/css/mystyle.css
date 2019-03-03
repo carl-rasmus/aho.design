@@ -1,0 +1,229 @@
+
+.top{
+  font-size: 30px;
+  font-family: sans-serif;
+  width: 50%;
+  margin: auto;
+  padding: 20px 0px 50px 0px;
+  text-align: center;
+}
+
+h1{
+  font-family: sans-serif;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h2{
+  background-color: ;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  width: 50%;
+  margin: auto;
+  padding: 20px 0px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+h2:hover{
+  font-family: serif;
+  cursor: s-resize;
+  background-color: ;
+  transform: scale(1.1);
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.container:hover .overlay, .container:hover .overlay2, .container:hover .overlay3, .container:hover .overlay4, .container:hover .overlay5, .container:hover .overlay6 {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: ;
+}
+
+.overlay2{
+  background-color: #000;
+}
+
+.overlay3{
+  background-color: #3ba6d5;
+}
+
+.overlay5{
+  background-image: url(https://media2.giphy.com/media/3o7bu5O1zeaXvhi4ve/source.gif);
+}
+
+.overlay6{
+  background-color: ;
+}
+
+.text, .text2, .text3, .text4, .text5, .text6 {
+  color: black;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: .5s ease;
+}
+
+.text2{
+  position: relative;
+  font-family: serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.text3{
+  width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text5{
+  width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:hover .text{
+  transform: scale(2) translate(-25%, -25%);
+  transform-origin: center;
+  text-shadow: 2px 2px #ff0000;
+}
+
+
+
+.container:hover .text3{
+  animation: float 3s ease-in-out infinite;
+}
+
+.container:hover .text4{
+  animation: colortext 5s ease-in-out infinite;
+}
+
+.container:hover .overlay4{
+  animation: color 4s ease-in-out infinite;
+}
+
+.container:hover .text5{
+  animation: move 6s ease-in-out infinite;
+}
+
+.container:hover .text6{
+  animation-direction: alternate-reverse;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+form{
+  padding: 50px 0px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+input{
+}
+
+.intro_text{
+  display: inline-block;
+  animation: float2 5s ease-in-out infinite;
+}
+.top2{
+  animation-duration: 5.5s;
+}
+.top3{
+  animation-duration: 6s;
+}
+.top4{
+  animation-duration: 6.5s;
+}
+.top5{
+  animation-duration: 7s;
+}
+.top6{
+  animation-duration: 7.5s;
+}
+
+.end_text{
+  display: inline-block;
+  animation: float3 5s ease-in-out infinite;
+}
+
+@keyframes float3 {
+  0% {transform: rotate(0deg);}
+25% {transform: rotate(-20deg);}
+50% {transform: rotate(20deg);}
+100% {transform: rotate(-360deg);}
+}
+
+@keyframes float2 {
+  0% {transform: translateX(0px) translateY(0px);}
+  33% {transform: translateX(-50px) translateY(50px);}
+  66% {transform: translateX(50px) translateY(50px);}
+  100% {transform: translateX(0px) translateY(0px);}
+}
+
+@keyframes float {
+  0% {transform: translateY(50px);}
+  50% {transform: translateY(-100px);}
+  100% {transform: translateY(50px);}
+}
+
+@keyframes color {
+  0%   {background-color: green;}
+  25%  {background-color: yellow;}
+  50%  {background-color: orange;}
+  100% {background-color: red;}
+}
+
+@keyframes colortext {
+  0%   {color: green;}
+  25%  {color: yellow;}
+  50%  {color: orange;}
+  100% {color: red;}
+}
+
+@keyframes move {
+  0%   {left:0; top:0;}
+  25%  {left:100%; top:0px;}
+  50%  {left:0px; top:100%;}
+  75%  {left:100%; top:100%;}
+  100% {left:0; top:0;}
+}
+
+@keyframes animate {
+  0%   {background-position: -500%;}
+  100% {background-position: 500%;}
+}

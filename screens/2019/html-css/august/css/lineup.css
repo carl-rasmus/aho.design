@@ -1,0 +1,79 @@
+*{
+  cursor: url('../img/Sikte.png'),pointer;
+}
+.Tilbake{
+  font-size: 40px;
+  font-family: Arial;
+  color: red;
+  position: absolute;
+  left: 750px;
+  top: 70px;
+  right: 450px;
+  line-height: 45px;
+}
+.a2{
+  font-size: 40px;
+  font-family: Arial;
+  color: red;
+  position: absolute;
+  left: 500px;
+  top: 200px;
+  line-height: 45px;
+}
+
+h1{
+  color: black;
+  font-size: 60px;
+  font-family: helvetica;
+  position: absolute;
+  left:20vw;
+  top: 6vw;
+}
+
+h2{
+  color: black;
+  font-size: 60px;
+  font-family: helvetica;
+  position: absolute;
+  left:10vw;
+  top: 3vw;
+}
+h3{
+  color: black;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: helvetica;
+  position: absolute;
+  left:20vw;
+  right: 50vw;
+  top: 1vw;
+}
+
+.freddie{
+  width: 250px;
+  height: auto;
+  position: absolute;
+  bottom: 50px;
+  left:80px;
+}
+.matte{
+  width: 200px;
+  height: auto;
+  position: absolute;
+  bottom: 50px;
+  left:400px;
+}
+.nurse{
+  width: 250px;
+  height: auto;
+  position: absolute;
+  bottom: 50px;
+  left:700px;
+}
+.musikk{
+  width: 250px;
+  height: auto;
+  position: absolute;
+  bottom:50px;
+  left:1050px;
+}

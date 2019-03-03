@@ -1,0 +1,129 @@
+/* THIS IS A COMMENT */
+/* write your css in this document */
+.rosesarered{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+}
+
+
+.violetsareblue{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+
+}
+
+.sugarissweet{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+}
+
+.andsoareyou{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+}
+
+
+.center2{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+
+.center3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 300px;
+}
+
+
+.sweet{
+  background-color: pink;
+  color: white;
+  font-size: 80px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+  margin: 10px 20px 10px 10px;
+}
+
+.cheat{
+  background-color: white;
+  color: white;
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+  margin: 10px 20px 10px 10px;
+}
+.leet{
+  background-color: white;
+  color: white;
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+  margin: 10px 20px 10px 10px;
+}
+
+
+.you{
+  font-family: "Oswald", sans-serif;
+  font-size: 150px;
+  color: gold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both
+
+
+}
+@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
+
+i{
+ margin-left: 550px;
+ margin-right: 200px;
+ animation:roll-in-left .6s ease-out both;
+ animation-delay:1.5s;
+}
+@keyframes roll-in-left{0%{transform:translateX(-800px) rotate(-540deg);opacity:0}100%{transform:translateX(0) rotate(0deg);opacity:1}}
+
+.red{
+  color: red;
+}
+
+
+.blue{
+  color:blue;
+
+}

@@ -1,0 +1,125 @@
+div {
+  text-align:center;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  height: 5000px;
+  background: linear-gradient(-5deg, darkblue, lightblue);
+  /*cursor:help;*/
+  /*cursor: url('../img/tongue.png'), auto*/
+}
+
+/*.container{
+  background: whitesmoke;
+  margin: 50px auto;
+  width: 1000px;
+  height: 80%;
+  padding: 10px;
+}*/
+
+/*.container:hover{
+  background: linear-gradient(-5deg, blue, whitesmoke);
+}*/
+
+h1{
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+  /*font-family: 'Patrick Hand', cursive;*/
+  font-family: 'Coiny', cursive;
+  font-style: italic;
+  padding: 50px 50px;
+}
+
+/*h1:hover{
+  font-size: 60px;
+}*/
+h2{
+  color: blue;
+  font-family: 'Coiny', cursive;
+  font-size: 60px;
+
+}
+h3{
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Coiny', cursive;
+  color: white;
+  font-size: 40px;
+}
+
+
+h4{
+  color: red;
+  text-decoration: underline wavy white;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Coiny', cursive;
+  padding: 0px 50px;
+}
+h5{
+  font-family: 'Coiny', cursive;
+  font-style: italic;
+  color: red;
+  font-size: 20px;
+
+}
+p{
+  font-family: 'Coiny', cursive;
+  font-style: italic;
+  color: white;
+  font-size: 30px;
+}
+input{
+  font-family: 'Coiny', cursive;
+  color: red;
+  font-size: 52px;
+  border-radius: 10px;
+  border-color: red;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+::placeholder {
+  color: pink;
+}
+input[type=submit]{
+  padding: 20px 50px;
+  background: white;
+  color: red;
+  border:0 none;
+  cursor: pointer;
+  -webkit-border-radius: 70px;
+  border-radius: 70px;
+  font-size: 60px;
+}
+
+input[type=submit]:hover{
+  transform: scale(1.1) rotateZ(-45deg);
+  cursor: url("../img/pointer.png"), auto;
+  background: red;
+  color: white;
+  cursor: url()
+}
+.answer_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.response_container{
+
+}
+.response{
+  display: none;
+}
+.response_show{
+  display: block;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/shoe.png">
+    <title>RIDDLE</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/master.css"/>
+    <link rel="stylesheet" type="text/css" href="css/spans.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sections.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Hind+Guntur|Patrick+Hand" rel="stylesheet">
+  </head>
+
+  <body>
+    <section id="tongue">
+      <div class="blocky">
+        <h1>What has a</h1>
+      <div>
+      <span class="animation">
+      <span class="animation_1">t</span>
+      <span class="animation_2">o</span>
+      <span class="animation_3">n</span>
+      <span class="animation_4">g</span>
+      <span class="animation_5">u</span>
+      <span class="animation_6">e</span>
+      <span class="animation_7">.</span>
+      <span class="animation_8">.</span>
+    </span></div></div>
+      <a class="next_btn" href="#talk"></a>
+    </section>
+
+    <section id="talk">
+      <div class="blocky">
+      <span class="talky"><h4>but cannot talk...</h4></span>
+      <span class='flip_H'><div class="teeth"></div><h4>but cannot talk...</h4></span></div>
+      <a class="next_btn" href="#around"></a>
+    </section>
+
+    <section id="around">
+      <h1>and gets</h1>
+      <div>
+        <span class="around">
+        <span class="around_1"><h2>a</h2></span>
+        <span class="around_2"><h2>r</h2></span>
+        <span class="around_3"><h2>o</h2></span>
+        <span class="around_4"><h2>u</h2></span>
+        <span class="around_5"><h2>n</h2></span>
+        <span class="around_6"><h2>d</h2></span>
+        </span></div>
+    <a class="next_btn" href="#walk"></a>
+    </section>
+
+    <section id="walk">
+     <marquee behavior="scroll" direction="right" scrollamount="20"><h1>but cannot walk?</h1></marquee>
+      <a class="next_btn" href="#answer"></a>
+    </section>
+
+    <section id="answer">
+      <div class="answer_container">
+        <input id="user_answer" type="text" name="" value="" placeholder="Type your answer">
+        <input id="user_submit" type="submit" value=">">
+        <a class="arrow-up" href="#tongue"></a>
+      </div>
+      <div class="response_container">
+        <h5 class="response wrong">errr.. not quite what we were looking for<div class="blue-btn">
+  <a class="first-link" href="">
+Uh, I need a hint  </a>
+  <a href="">
+    You wear it on your feet
+  </a>
+</div></h5>
+        <p class="response correct">
+          <span class="animation">
+          <span class="animation_1">y</span>
+          <span class="animation_2">a</span>
+          <span class="animation_3">y</span>
+          <span class="animation_4">!</span></span><br>Correct!</p>
+      </div>
+
+      <a href="#tongue"><h3>To the top</h3></a>
+    </section>
+
+    <script>
+      var answer;
+      var correct_answer = "shoe";
+
+      $('#user_submit').click(function(){
+        answer = $('#user_answer').val();
+        if (answer == correct_answer) {
+          $('.correct').addClass('response_show');
+          $('.wrong').removeClass('response_show');
+        }
+        else{
+          $('.wrong').addClass('response_show');
+          $('.correct').removeClass('response_show');
+        }
+      });
+    </script>
+
+  </body>
+</html>

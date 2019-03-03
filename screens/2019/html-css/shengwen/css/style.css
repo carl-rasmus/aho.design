@@ -1,0 +1,242 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+/* text transition */
+#text, #text2 {
+    font-family: 'Cormorant', serif;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    margin: 48px auto;
+    font-size: 36px;
+    color: #000;
+    z-index: 2;
+
+}
+
+#text2{
+  color:#fff;
+  top: 50%;
+  display: none;
+  transition: .5s;
+}
+/* .split{
+	margin: 0 auto;
+  margin-top: 20%;
+  padding: 5%;
+	position: absolute;
+	top: 20%;
+	font-size: 30px;
+	line-height: 1.5;
+	transform: translateY(-50%);
+  color: #333;
+  z-index: 2;
+} */
+
+/* #text:before {
+    content: "Every atom in your body...";
+    opacity: 1;
+}
+
+#text:after {
+    content: "came from a star that exploded...";
+    color: #000;
+    opacity: 0;
+
+}
+
+
+#text:after, .text:before {
+    transition: opacity 0.5s linear;
+}
+
+#text:hover:before {
+    opacity: 0;
+    cursor: pointer;
+}
+#text:hover:after {
+    opacity: 1;
+    cursor: pointer;
+
+} */
+
+/* #text:hover ~ #bg {
+    background: #000;
+} */
+/* background color transition */
+#bg {
+    margin: 0;
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #fff;
+    /* background:linear-gradient(0deg,#ffffff 0%, #f6f6f6 20%, #000000 100%); */
+    transition: .5s;
+}
+
+.trigger {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius:50%;
+    top: 40%;
+    left: 50%;
+    margin: 0 auto;
+    background: #000;
+    z-index: 2;
+    transition: .5s;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    text-align: center;
+    line-height: 0.95;
+}
+.dot1 a{
+  font-size: 27px;
+  text-decoration: none;
+  color: #000;
+  transition: .5s;
+
+}
+
+.dot1 a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+/* .dot2{
+  top: 30%;
+  left: 40%;
+  background: #fff;
+  } /*Removed it change the bg*/
+
+
+/* .dot2{
+  top: 20%;
+  left: 60%;
+  background: #fff;
+}
+
+.dot3{
+  top: 10%;
+  left: 25%;
+  background: #fff;
+}
+
+.dot4{
+  top: 50%;
+  left: 20%;
+  background: #fff;
+}
+
+.dot5{
+  top: 80%;
+  left: 60%;
+  background: #fff;
+}
+
+.dot6{
+  top: 70%;
+  left: 40%;
+  background: #fff;
+}
+
+.dot7{
+  top: 50%;
+  left: 90%;
+  background: #fff;
+}
+
+.dot8{
+  top: 30%;
+  left: 80%;
+  background: #fff;
+}
+
+.dot9{
+  top: 18%;
+  left: 10%;
+  background: #fff;
+}
+
+.dot10{
+  top: 40%;
+  left: 20%;
+  background: #fff;
+} */
+
+.trigger:hover{
+  background: #fff;
+  cursor: pointer;
+  animation: heartbeat2 1.5s ease-in-out infinite both;
+}
+
+
+.trigger:hover ~ #bg {
+    background: #000;
+}
+
+.trigger:hover ~ #text2 {
+    display:block;
+}
+
+
+
+
+/* heartbeat animation of the dots*/
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes heartbeat2 {
+  from {
+    transform: scale(2);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(1.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(1.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(1.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(2);
+    animation-timing-function: ease-out;
+  }
+}

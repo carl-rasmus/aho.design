@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<div class="upside_down">
+  <h1>Upside Down</h1>
+  </div>
+
+  <h2>- Poem by Aileen Fisher</h2>
+
+
+<div class="first">
+    <p>
+    It's funny how beetles<br/>
+    and creatures like that<br/>
+    can walk <span class="upside_down_inline"s>upside down</span><br/>
+    as well as walk <span class="flat"s>flat</span>
+    </p>
+    <img class="bug"src="img/crawling.gif" alt="">
+
+</div>
+
+<div class="second">
+  <p>
+  They crawl on a ceiling <br/>
+  and climb on a wall<br/>
+  without any practice<br/>
+  or trouble at all.
+  </p>
+</div>
+
+<div class="last">
+<p>
+  While I have been trying<br/>
+  <span class="show">for a year</span> <span class="hidden">(maybe more)</span><br/>
+  and still I can't stand<br/>
+  with my head on the floor.
+  </p>
+</div>
+
+<section id="up">
+  <a class="scroll" href="#down">What's this?</a>
+</section>
+
+
+<section id="down">
+  <img class="spider" src="img/spider.gif" alt="">
+</section>
+
+
+  <script>
+    $('.upside_down_inline').click(function(){
+      $(this).toggleClass('snu');
+
+    });
+  </script>
+
+  <script>
+    $('.flat').click(function(){
+      $(this).toggleClass('mos');
+    });
+  </script>
+
+
+
+  </body>
+</html>

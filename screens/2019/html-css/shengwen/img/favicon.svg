@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>noun_Star_934385</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="16.3977194%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="noun_Star_934385" fill="url(#radialGradient-1)">
+            <g id="Group" transform="translate(0.049191, 0.052880)">
+                <polygon id="Path" points="15.9821198 0.0427662654 14.2858135 12.9584952 8.58437041 8.58068227 12.9621833 14.2821254 0.0464544063 15.9784316 12.9621833 17.6747378 8.58437041 23.376181 14.2858135 18.9983681 15.9821198 31.9140972 17.678426 18.9983681 23.3798691 23.376181 19.0020562 17.6747378 31.9177854 15.9784316 19.0020562 14.2821254 23.3798691 8.58068227 17.678426 12.9584952"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

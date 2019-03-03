@@ -1,0 +1,142 @@
+/* THIS IS A COMMENT */
+/* write your css in this document */
+.rosesarered{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+
+}
+
+.violetsareblue{
+  margin-top:250px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.2cm;
+
+}
+
+.violetsareblue{
+  animation:slide-top .5s cubic-bezier(.25,.46,.45,.94) both;
+  animation-delay:3s;
+}
+
+@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-30px)}}
+
+.dotwhite{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: white;
+  margin: 10px 20px 10px 10px;
+  visibility: hidden;
+}
+
+.dotred{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: red;
+  margin: 10px 20px 10px 10px;
+  animation:slide-top .5s cubic-bezier(.25,.46,.45,.94) both;
+}
+.center{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+animation: blur-out-expand-fwd 1s cubic-bezier(.25,.46,.45,.94) both;
+animation-delay: 0.5s;
+}
+
+@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-160px)}}
+@keyframes blur-out-expand-fwd{0%{transform:translateZ(0);filter:blur(.01)}100%{letter-spacing:1em;transform:translateZ(300px);filter:blur(12px) opacity(0)}}
+
+.dots1{
+color: black;
+animation: tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+
+
+.center2 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 200px;
+  margin-top: 30px;
+}
+.center2{
+  animation:slide-top .5s cubic-bezier(.25,.46,.45,.94) both;
+  animation-delay:3s;
+}
+
+.dot1{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: yellow;
+  margin: 10px 20px 10px 10px;
+
+}
+
+.dot1:hover{animation:shake-horizontal 1s cubic-bezier(.455,.03,.515,.955) both}
+
+@keyframes shake-horizontal{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-10px)}20%,40%,60%{transform:translateX(10px)}80%{transform:translateX(8px)}90%{transform:translateX(-8px)}}
+
+.dot2{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: green;
+  margin: 10px 20px 10px 10px;
+
+}
+
+.dot2:hover{animation:shake-horizontal 1s cubic-bezier(.455,.03,.515,.955) both}
+
+
+.dot3{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: red;
+  margin: 10px 20px 10px 10px;
+
+}
+.dot4:hover{
+  animation:shake-vertical 1.2s cubic-bezier(.455,.03,.515,.955) both
+}
+
+@keyframes shake-vertical{0%,100%{transform:translateY(0)}10%,30%,50%,70%{transform:translateY(-8px)}20%,40%,60%{transform:translateY(8px)}80%{transform:translateY(6.4px)}90%{transform:translateY(-6.4px)}}
+
+.dot4{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: blue;
+  margin: 10px 20px 10px 10px;
+
+}
+
+.dot3:hover{animation:shake-horizontal 1s cubic-bezier(.455,.03,.515,.955) both}
+
+.red{
+  color: red;
+  animation:focus-in-expand-fwd .8s cubic-bezier(.25,.46,.45,.94) both;
+  animation-delay:1s;
+}
+
+@keyframes focus-in-expand-fwd{0%{letter-spacing:-.5em;transform:translateZ(-800px);filter:blur(12px);opacity:0}100%{transform:translateZ(0);filter:blur(0);opacity:1}}
+
+.blue{
+  color:blue;
+}

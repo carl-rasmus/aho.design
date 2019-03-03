@@ -1,0 +1,59 @@
+/*
+    AUTHOR: Chris Coyier
+            chriscoyier@gmail.com
+            http://chriscoyier.net
+*/
+
+body{
+	background-color: #770BF4;
+}
+
+
+#background, #midground, #foreground{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	pointer-events: none;
+}
+
+#background {
+	background: url(../img/foreground.png) repeat 5% 5%;
+	z-index: 200;
+
+	filter: blur(2px);
+}
+
+#midground {
+	background: url(../img/midground.png) repeat 20% 20%;
+	z-index: -25;
+
+}
+
+#foreground {
+	background: url(../img/background.png) repeat 90% 110%;
+	z-index: -50;
+
+}
+main{
+height: 100vh;
+width: 100vw;
+overflow-x: hidden;
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+	.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-gap: 10px;
+	background: rgba(255, 255, 255, 0.0);
+	align-content: center;
+	padding: 10px 20px;
+	overflow: hidden;
+}
+}

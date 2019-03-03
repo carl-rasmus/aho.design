@@ -1,0 +1,94 @@
+*{
+  cursor: url('../img/Mus5.png'),pointer;
+}
+
+body{background-color: white;
+
+display: inline-block;}
+
+h1{ color: black;
+    font-size: 40px;
+    font-family: helvetica;
+    margin-left:40px;
+  }
+
+p{
+font-family: monospace;
+  font-size: 25px;
+  line-height: 40px;
+  margin-right: 1000px;
+  margin-left: 40px;
+}
+a{
+  font-size: 50px;
+  color: red;
+  font-family: Arial;
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  left: 1070px;
+}
+
+.body-img {
+  width: 250px;
+  margin: 100px;
+  position: absolute;
+  top: 400px;
+  left: 700px;
+}
+.freddie{
+  background-image: url(../img/Gym1.png);
+  width: 230px;
+  height: 330px;
+  position: absolute;
+  top: 470px;
+  left:420px;
+  transition: .1s ease-in;
+}
+.freddie:hover{
+  background-image: url(../img/Gym2.png);
+  width: 230px;
+  height: 330;
+}
+.matte{
+  background-image: url(../img/Matte1.png);
+  width: 230px;
+  height: 330px;
+  position: absolute;
+  top:60px;
+  right:450px;
+  transition: .1s ease-in;
+}
+.matte:hover{
+  background-image: url(../img/Matte2.png);
+  width: 230px;
+  height: 330px;
+}
+.nurse{
+  background-image: url(../img/Nurse1.png);
+  width: 230px;
+  height: 330px;
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  transition: .1s ease-in;
+}
+.nurse:hover{
+  background-image: url(../img/Nurse2.png);
+  width: 230px;
+  height: 330px;
+}
+.musikk{
+  background-image: url(../img/Musikk.png);
+  width: 230px;
+  height: 330px;
+  position: absolute;
+  top: 300px;
+  right: 50px;
+  transition: .1s ease-in;
+}
+.musikk:hover{
+  background-image: url(../img/Musikk2.png);
+  width: 230px;
+  height: 330px;
+}

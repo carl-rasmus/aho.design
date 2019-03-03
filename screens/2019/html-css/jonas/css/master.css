@@ -1,0 +1,201 @@
+html{
+  background-color: white;
+  margin: 0px;
+}
+
+body{
+  background-color: whitesmoke;
+  margin: 0px;
+}
+
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: rgb(255, 244, 163);
+}
+
+.a{
+
+}
+
+.q{
+  width: 50%;
+
+}
+
+.welcome{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  background-image: url(http://www.kristingjelsvik.no/wp-content/uploads/2018/03/DSC02399.jpg);
+}
+.welcome h1{
+  width: 60%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.container1{
+  height: 100VH;
+  width: 100%;
+  background-color: rgb(255, 163, 163);
+  margin: 0px;
+}
+
+.container2{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(100, 100, 163);
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container3{
+  padding-top: 10%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 244, 163);
+  margin: 0px;
+
+
+}
+
+.wrap{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrap2{
+  height: 100%;
+  width: 80%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrap p{
+  margin 0;
+}
+
+.menu{
+  background-color: rgb(255, 244, 163);
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  left: -80%;
+  transition: .8s;
+  display:inline-block;
+  z-index: 1;
+}
+.show_menu{
+  left: 0;
+}
+
+.christian{
+  background-image: url(../img/christian.png);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  display: block;
+  right: -300px;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: top center;
+  transform: rotate(90deg);
+  cursor: e-resize;
+}
+
+.info{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info p{
+   margin: 0
+}
+
+.img{
+  margin: 20px;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://docplayer.me/docs-images/62/48144045/images/1-0.jpg);
+  z-index: 100;
+}
+
+
+
+.float1{
+  position: absolute;
+  text-align: center;
+  line-height: 0.7em;
+  left: 50px;
+  top: 50px;
+}
+
+.float2{
+  position: absolute;
+  text-align: center;
+  line-height: 0.7em;
+  right: 50px;
+  top: 50px;
+}
+
+.float3{
+  position: absolute;
+  text-align: center;
+  line-height: 0.7em;
+  right: 50px;
+  bottom: 50px;
+}
+
+.a2 a{
+  color: black;
+  line-height: 0em;
+  cursor: help;
+}
+
+.underline{
+  border-bottom: 5px solid black;
+}
+
+
+.a2 a p {
+  display:none;
+
+}
+.a2 a:hover p {
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+}

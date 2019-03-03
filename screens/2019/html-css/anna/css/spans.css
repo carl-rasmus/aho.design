@@ -1,0 +1,101 @@
+
+span.animation{
+  white-space: nowrap;
+  color: hotpink;
+  font-family: 'Coiny', cursive;
+  /*display: inline-block;*/
+  font-size: 100px;
+
+}
+
+span.animation_1,span.animation_2,span.animation_3,span.animation_4,span.animation_5,span.animation_6,span.animation_7,span.animation_8{
+  display: inline-block;
+  animation: float 2s ease-in-out infinite;
+  animation-name: float;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+span.animation_2{animation-delay: .1s;}
+span.animation_3{animation-delay: .2s;}
+span.animation_4{animation-delay: .3s;}
+span.animation_5{animation-delay: .4s;}
+span.animation_6{animation-delay: .5s;}
+span.animation_7{animation-delay: .6s;}
+span.animation_8{animation-delay: .7s;}
+
+@keyframes float {
+  0% {transform: translateY(-150px);}
+  50% {transform: translateY(0px);}
+  100% {transform: translateY(-150px);}
+}
+@keyframes float2 {
+  0% {transform: scale(1,-1) translateY(-100px);}
+  50% {transform: scale(1,-1) translateY(0px);}
+  100% {transform: scale(1,-1) translateY(-100px);}
+}
+.blocky{
+  display: block;
+}
+span.talky{
+  width: 100%;
+  display: block;
+  animation: float 2s ease-in-out infinite;
+  animation-name: float;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+span.flip_H{
+  width: 100%;
+  display: block;
+  animation: float2 2s ease-in-out infinite;
+  animation-name: float2;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+span.around {
+  width: 30px;
+  height: 30px;
+}
+span.around_1 {
+    display: inline-block;
+    animation: round_round 9s linear infinite;
+}
+span.around_2 {
+    display: inline-block;
+    animation: round_round 8.8s linear infinite;
+}
+span.around_3 {
+    display: inline-block;
+    animation: round_round 8.6s linear infinite;
+}
+span.around_4 {
+    display: inline-block;
+    animation: round_round 8.4s linear infinite;
+}
+span.around_5 {
+    display: inline-block;
+    animation: round_round 8.2s linear infinite;
+}
+span.around_6 {
+    display: inline-block;
+    animation: round_round 8s linear infinite;
+}
+
+@keyframes round_round {
+  0% { transform: rotate(0deg) translate(150px) rotate(0deg); }
+  100% { transform: rotate(360deg) translate(150px) rotate(-360deg); }
+}

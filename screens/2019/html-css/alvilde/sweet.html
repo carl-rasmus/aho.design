@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- THIS IS A COMMENT -->
+    <!-- Document meta information goes here -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/sweet.css">
+    <!-- <link rel="stylesheet" href="css/pixie.scss"> -->
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Oswald|Titillium+Web" rel="stylesheet">
+
+    <title>rosesarered</title>
+
+
+  </head>
+
+  <body>
+
+
+
+<div class="rosesarered">
+  <div class="roses"><p>Roses are</p></div>
+  <div class="red"><p>RED</p></div>
+</div>
+
+<div class="violetsareblue">
+  <div class="violets"><p>Violets are</p></div>
+  <a id="sweet"></a>
+
+  <div class="blue"><p>BLUE</p></div>
+
+</div>
+
+<div class="sugarissweet">
+  <div class="sugar"><p>Sugar is<p></div>
+
+</div>
+
+<div class="center3">
+  <div class="cheat">cheat</div>
+  <div class="sweet">SWEET</div>
+  <div class="leet">1337</div>
+</div>
+
+<div class="andsoareyou">
+  <div class="andsoare"><p>And so are</p></div>
+  <!--<div class="dots3"><p>....</p></div>-->
+</div>
+
+<div class="password"><p>enter the correct word</p></div>
+
+
+<form name="myForm" onsubmit="get_action(event);">
+  <!-- <input id="user_answer" type="text" name="fname"> -->
+  <input id="user_answer" type="text" value="">
+
+</form>
+
+
+
+  <script type="text/javascript">
+    function get_action(event) {
+      // var x = document.forms["myForm"]["fname"].value;
+      var x = document.getElementById('user_answer').value;
+
+      if (x == "you") {
+       window.location.href="end.html#end";
+       console.log("det virker");
+       event.preventDefault()
+     }
+     else{
+       // document.write('<div class="you">YOU</div>');
+       alert("Name must be filled out");
+
+       return false;
+    }
+
+    return false;
+   }
+  </script>
+
+  </body>
+</html>

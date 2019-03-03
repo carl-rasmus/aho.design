@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is just to say</title>
+
+<style media="screen">
+
+    body { margin: 0;font-family:LibreFranklin-Bold, sans-serif; }
+
+    .backimage {
+    background-image: url("img/IceboxClosed.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+
+
+    .maintext {
+      top: 50%;
+      left: 50%;
+      text-align: left;
+      position: absolute;
+    transform: translate(-50%, -50%);
+      color: white;
+      }
+
+    .area {
+        background:#fff;
+        height: 320px;
+        width: 200px;
+        position: absolute;
+        bottom: 220px;
+        left: 150px;
+        display:block;
+        opacity:0;
+      }
+
+  #area1:hover {
+      opacity:0.2;
+    }
+
+ </style>
+ </head>
+
+
+<body>
+
+
+  <div class="backimage">
+        <div class="maintext">
+          <h1 style="font-size:30px"> Open the cabinet <br>to retreive <br>your fruits </h1>
+        </div>
+
+        <section>
+          <a id="area1" class="area" href="Task003.html"></a>
+        </section>
+
+  </div>
+
+</body>
+</html>

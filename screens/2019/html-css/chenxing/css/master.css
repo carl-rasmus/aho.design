@@ -1,0 +1,104 @@
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: transparent;
+  margin-top: 8%;
+  width: 100%;
+  height: 100%;
+}
+.flip-heading{
+
+}
+.flip-box{
+  background-color: transparent;
+  width:100%;
+  height:400px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: yellow ;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+.centered{
+  text-align: center;
+}
+.underline{
+  text-decoration: underline;
+  background-color: yellow;
+
+}
+footer{
+  font-family: sans-serif;
+  margin-bottom: 200px;
+  text-align: center;
+  color:#999;
+  font-size:16px;
+}
+@media only screen and (max-width: 992px) {
+  .flex-container{
+    width: 100%;
+    display: block;
+
+    overflow-x: auto;}
+
+  .flip-box {
+    background-color: transparent;
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    perspective: 1000px;}
+
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;}
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);}
+
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;}
+
+  .flip-box-front {
+    background-color: yellow;
+    color: black;}
+
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateX(180deg);}

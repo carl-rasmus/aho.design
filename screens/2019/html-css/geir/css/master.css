@@ -1,0 +1,98 @@
+body{
+  background: white;
+}
+.whitefoxes{
+  margin: 170px auto auto 5%;
+  padding: 10px 10px 10px 10px;
+  font-size: 180px;
+  color: black;
+  white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.7s;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+}
+.whitefoxes:hover{
+  padding: 20px 10px 10px 10px;
+  transition: 0.7s;
+}
+h4{
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  transition: 3s;
+}
+h4:hover{
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  background-color: yellow;
+  transition: 0.7s;
+}
+.bilde_lyrics {
+  opacity: 0;
+  transition: 2s;
+}
+.show_lyrics{
+  opacity: 1;
+  height: auto;
+}
+.statement{
+  font-size: 100px;
+  font-family: 'EB Garamond', serif;
+  cursor: default;
+}
+.S2{
+  cursor: url("http://cur.cursors-4u.net/symbols/sym-1/sym49.cur"), auto;
+}
+.S5{
+  text-align: right;
+}
+.S5:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+a.ex2{
+  transition: 0.5s;
+}
+a.ex2:hover{
+  color: white;
+  transition: 0.5s;
+}
+.S12{
+  color: #ffc0cb;
+}
+a.ex3{
+  text-decoration: none;
+  color: #ffc0cb;
+  transition: all .2s ease-in-out;
+  bottom: 200px;
+}
+a.ex3:hover{
+  color: #ff94a7;
+  font-size: 101px;
+  transition: .2s;
+  text-decoration: underline;
+  cursor: pointer;
+}
+a.ex3:active {
+  color: black;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

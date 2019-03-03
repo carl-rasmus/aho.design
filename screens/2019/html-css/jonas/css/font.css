@@ -1,0 +1,96 @@
+h1{
+  font-family: 'Kavoon', sans-serif;
+  margin: 0px;
+  margin-bottom: 30px;
+  font-size: 4em;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Kavoon', sans-serif;
+  text-align: center;
+}
+
+p{
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+a{
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover{
+color:rgb(100, 100, 163);
+}
+
+a:{
+color:rgb(100, 100, 163);
+}
+
+.q p{
+  color: red;
+  text-align: left;
+}
+
+.a p{
+  text-align: right;
+}
+
+.a a{
+  text-align: right;
+  display: block;
+}
+
+li{
+  font-family: 'Kavoon', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+.para-text{
+  color: GOLD;
+  text-shadow: 0px 0px 7px black;
+  text-decoration: none;
+  font-size: 0.6em;
+}
+
+.para-text2{
+  color: GOLD;
+  text-shadow: 0px 0px 7px black;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.awesome{
+  font-family: 'Kavoon', sans-serif;
+  font-weight: 900;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  animation: pulse 1s infinite;
+  color: rgb(255, 244, 163);
+  width: 6  0%;
+}
+
+@keyframes pulse {
+  0% {
+    color: GOLD;
+  }
+  50% {
+    color: PINK;
+  }
+  100% {
+    color: GOLD;
+  }
+}
+
+
+.info p{
+  font-size: 5em;
+}

@@ -1,0 +1,33 @@
+span.A{
+  animation: pulse 1s infinite;
+}
+span.w{
+  animation: pulse 1s infinite;
+}
+span.e{
+  animation: pulse 1s infinite;
+}
+span.s{
+  animation: pulse 1s infinite;
+}
+span.o{
+  animation: pulse 1s infinite;
+}
+span.m{
+  animation: pulse 1s infinite;
+}
+span.e{
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: RED;
+  }
+  50% {
+    color: PINK;
+  }
+  100% {
+    color: GREEN;
+  }
+}

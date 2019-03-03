@@ -1,0 +1,334 @@
+/* THIS IS A COMMENT */
+/* write your css in this document */
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Next Page*/
+.arrow2{
+display: block;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+@keyframes jump {
+  0% { bottom: 0; }
+  50% { bottom: 30px; }
+  100% { bottom: 0; }
+}
+
+#arrow-down {
+  position: absolute;
+  animation: jump 5s infinite;
+}
+
+i.material-icons {
+  color: #550000; }
+i:hover { color: #FFAAAA; }
+
+
+/* First Tan Line*/
+#top_section{
+  height: 100vh;
+  width: 100%;
+  background-color: #89b3c3;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  animation: mymove 5s infinite;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 48vh 0;
+  transition: .5s;
+  transition-timing-function: ease-in-out;
+
+}
+.tan{
+  color: coral;
+}
+.h1:hover{
+  transform: scale(1.3);
+}
+
+@keyframes mymove {
+0% {background-color: #89b3c3;}
+50% {background-color: #5a6d7c;}
+100% {background-color: #89b3c3;}
+}
+
+
+/* Verse: Falling to the ground*/
+
+p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3vw;
+  font-weight: regular;
+  text-align: left;
+  padding: 40.5vh 25vw;
+}
+
+.ground_section{
+  display: inline-block;
+}
+
+.falling{
+  display: inline-block;
+  animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+  29.5% {transform: translateY(0px);}
+  30% {transform: translateY(-1px);}
+  37% {transform: translateY(220px);}
+  45% {transform: translateY(220px);}
+  100% {transform: translateY(0px);}
+}
+.falling2{
+  display: inline-block;
+  animation: float2 8s ease-in-out infinite;
+}
+
+@keyframes float2 {
+  29.5% {transform: translateY(0px);}
+  30% {transform: translateY(-1px);}
+  34.2% {transform: translateY(160px);}
+  45% {transform: translateY(160px);}
+  100% {transform: translateY(0px);}
+}
+.falling3{
+  display: inline-block;
+  animation: float3 8s ease-in-out infinite;
+}
+
+@keyframes float3 {
+  29.5% {transform: translateY(0px);}
+  30% {transform: translateY(-1px);}
+  33.8% {transform: translateY(80px);}
+  45% {transform: translateY(80px);}
+  100% {transform: translateY(0px);}
+}
+
+.f1{animation-delay: .1s;}
+.f2{animation-delay: .3s;}
+.f3{animation-delay: .5s;}
+.f4{animation-delay: .8s;}
+
+.f5{animation-delay: 1s;}
+.f6{animation-delay: 1.2s;}
+.f7{animation-delay: 1.4s;}
+.f8{animation-delay: 1.6s;}
+.f9{animation-delay: 1.8s;}
+.f10{animation-delay: 1.9s;}
+
+.f11{animation-delay: 2.1s;}
+.f12{animation-delay: 2.3s;}
+.f13{animation-delay: 2.5s;}
+.f14{animation-delay: 2.7s;}
+.f15{animation-delay: 2.9s;}
+.f16{animation-delay: 3.1s;}
+.f17{animation-delay: 3.3s;}
+
+/* Chours: I Me Mine*/
+
+.imemine_section{
+  font-family: 'Oswald', sans-serif;
+  font-size: 9vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
+
+
+}
+.imemine{
+  display: inline-block;
+  transition: .2s;
+  transition-timing-function: ease-in-out;
+}
+.imemine:hover{
+  transform: scaleX(.10);
+}
+
+
+/* Break One*/
+
+
+.movingbox_section{
+  width: 100vw;
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+}
+.movingbox_section:hover{
+  cursor: none;
+}
+div.movingbox{
+  width: 8vw;
+  height: 3vh;
+  background-color: red;
+  transition: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+div.movingbox:hover{
+    background-color: blue;
+    width: 1vw;
+
+}
+
+/* Break Two*/
+.movingbox_sectionB{
+  width: 100vw;
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+}
+.movingbox_sectionB:hover{
+      cursor: none;
+}
+div.movingboxB{
+  width: 8vw;
+  height: 3vh;
+  background-color: red;
+  transition: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+div.movingboxB:hover{
+    background-color: blue;
+    transform: scale(.1);
+
+}
+div.ZX{
+  width: 8vw;
+  height: 3vh;
+  background-color: red;
+  transition: .3s;
+  transition-timing-function: ease-in-out;
+}
+div.ZX:hover{
+    background-color: blue;
+    transform: scale(5);
+}
+
+/* Verse: Change Minds*/
+
+
+.container{
+  display: inline-block;
+  transition: 1s;
+}
+
+.container:hover{
+  transform: skewX( -20deg ) translateX( 20px );
+}
+
+.container2{
+  display: inline-block;
+  transition: 1s;
+}
+
+.container2:hover{
+  transform: skewX( 20deg ) translateX( -20px );
+}
+
+/* Verse: Old Line*/
+
+.select_lyrics{
+  margin: 500px 20vw;
+  width: 50vw;
+  font-size: 1vw;
+  display: flex center;
+}
+
+h3{
+  color: red;
+  font-size: 10vh;
+}
+
+/* Verse: Hey*/
+
+.hey_container{
+  padding: 30% 30vw;
+}
+.hey{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3vw;
+  font-weight: regular;
+  text-align: left;
+  opacity: 0;
+  display: inline-block;
+  animation: blink 7s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {opacity: 0;}
+  10% {opacity: 1;}
+  20% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.hey1{animation-delay: 1s;}
+.hey2{animation-delay: 1.5s;}
+.hey3{animation-delay: 2s;}
+.hey4{animation-delay: 2.5s;}
+.hey5{animation-delay: 3s;}
+.hey6{animation-delay: 3.5s;}
+.hey7{animation-delay: 4s;}
+.hey8{animation-delay: 4.5s;}
+.hey9{animation-delay: 5s;}
+.hey10{animation-delay: 5.5s;}
+.hey11{animation-delay: 6s;}
+.hey12{animation-delay: 6.5s;}
+
+
+/* Author Input*/
+
+.author{
+  margin: 0vh 40vw;
+  width: 20vw;
+  font-size: 2vw;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+form.authorname_form{
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  display: flex center;
+  text-align: center;
+  justify-content: center;
+}
+
+label{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4vw;
+  font-weight: 100;
+  display: block;
+  text-align: center;
+  padding-top: 30%;
+}
+
+.bottom{
+  height: 500px;
+  width: 100vw;
+  background-color: red;
+  margin: 0;
+  padding: 0;
+}

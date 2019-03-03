@@ -1,0 +1,139 @@
+/* THIS IS A COMMENT */
+/* write your css in this document */
+p { color: #ffffff; font-family: 'Helvetica Neue', sans-serif; font-size: 18px; line-height: 24px; text-align: left; justify; text-justify: inter-word; padding-left: 5%;}
+
+h1 { color: #ffffff; font-family: 'Helvetica Neue', sans-serif; font-size: 90px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: left; padding-left: 5%; padding-top: 5%}
+html{
+  margin: 0;
+  border: 0;
+  background-color: black;
+}
+
+body{
+  margin: 0;
+  border: 0;
+}
+.backgroundone{
+width: 100%;
+height: 100vh;
+background-color: black;
+
+}
+
+.backgroundfour{
+width: 100%;
+height: 100vh;
+background-image: url(../img/fourbeer.jpg);
+background-size: cover;
+}
+.backgroundtwo{
+width: 100%;
+height: 100vh;
+background-image: url(../img/twobeer.jpg);
+background-size: cover;
+}
+
+.backgroundthree{
+width: 100%;
+height: 100vh;
+background-image: url(../img/bahamas.jpg);
+background-size: cover;
+}
+
+.buttontry{
+  padding-left: 5%;
+}
+.top{
+  position: fixed;
+  top: 0;
+}
+
+.top p{
+  width: 40%;
+}
+
+.top h1{
+  width: 70%;
+}
+.btn {
+  border: none;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+}
+
+/* On mouse-over */
+.btn:hover {background: white; opacity: 0.4}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.aass{
+  /*padding-left: 60%;
+  padding-bottom: 10%;*/
+  bottom: -100px;
+  right: 200px;
+  position: absolute;
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

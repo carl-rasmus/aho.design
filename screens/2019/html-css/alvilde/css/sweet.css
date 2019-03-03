@@ -1,0 +1,169 @@
+/* THIS IS A COMMENT */
+/* write your css in this document */
+.rosesarered{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+}
+
+
+.violetsareblue{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+
+}
+
+
+.sugarissweet{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+
+}
+
+.andsoareyou{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+  animation:slide-top .5s cubic-bezier(.25,.46,.45,.94) both;
+  animation-delay:3s;
+}
+
+@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-30px)}}
+
+.dots3{
+color: black;
+animation: tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;
+animation-delay:3s;
+}
+@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+
+.center2{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+animation: blur-out-expand-fwd 1s cubic-bezier(.25,.46,.45,.94) both;
+animation-delay: 0.5s;
+}
+
+@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-160px)}}
+@keyframes blur-out-expand-fwd{0%{transform:translateZ(0);filter:blur(.01)}100%{letter-spacing:1em;transform:translateZ(300px);filter:blur(12px) opacity(0)}}
+
+
+.center3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 300px;
+}
+
+
+.sweet{
+  background-color: pink;
+  color: white;
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+  margin: 10px 20px 10px 10px;
+  animation: slide-fwd-center .5s cubic-bezier(.25,.46,.45,.94) both;
+
+}
+@keyframes slide-fwd-center{0%{transform:translateZ(0)}100%{transform:translateZ(160px)}}
+@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-100px)}}
+
+.cheat{
+  background-color: black;
+  color: white;
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+  margin: 10px 20px 10px 10px;
+  animation:swing-out-top-bck .45s cubic-bezier(.6,-.28,.735,.045) both;
+  animation-delay: 1s;
+}
+.leet{
+  background-color: black;
+  color: white;
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+  margin: 10px 20px 10px 10px;
+  animation:swing-out-top-bck .45s cubic-bezier(.6,-.28,.735,.045) both;
+  animation-delay: 1s;
+}
+@keyframes swing-out-top-bck{0%{transform:rotateX(0deg);transform-origin:top;opacity:1}100%{transform:rotateX(-100deg);transform-origin:top;opacity:0}}
+
+form{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 300px;
+}
+
+
+
+input{
+  background-color: gold;
+  color: black;
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  border-style: none;
+  padding: 20px 30px;
+  display: block;
+  box-sizing:border-box;
+  outline: none;
+  animation:slide-top .5s cubic-bezier(.25,.46,.45,.94) both;
+  animation-delay:3s;
+
+}
+
+
+.red{
+  color: red;
+}
+
+
+.blue{
+  color:blue;
+
+}
+
+.password{
+  font-size: 25px;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  letter-spacing: 4px;
+}

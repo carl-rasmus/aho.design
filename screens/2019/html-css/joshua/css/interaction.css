@@ -1,0 +1,135 @@
+.word{
+  display: flex;
+  justify-content: center;
+  border: 0;
+  outline: 0;
+}
+
+.first {
+  margin-right: 50px;
+  transition: 0.5s;
+}
+
+.second {
+  margin-left: 50px;
+  transition: 0.5s;
+}
+
+.info {
+  overflow: hidden;
+  width: 100%;
+  height: 0px;
+  transition: 0.5s;
+}
+
+/* HOVER */
+
+.word:hover h3 {
+  cursor: pointer;
+  color: yellow;
+}
+
+.word:hover .hide {
+  display: none;
+}
+
+.word:hover .first {
+  margin-right: 0;
+}
+
+.word:hover .second {
+  margin-left: 0;
+}
+
+.word:active + .info{
+  cursor: pointer;
+  border: 0;
+  height: 110px;
+  outline: 0;
+}
+
+.impressum:hover {
+  cursor:pointer;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+  .hide {
+    display: none;
+  }
+
+  .first {
+    margin-right: 0;
+  }
+
+  .second {
+    margin-left: 0;
+  }
+
+  .footer {
+    display: none;
+  }
+
+}
+
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 700px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+  h1 {
+    font-size: 8vw;
+  }
+
+  h3 {
+    height: 120px;
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 36px;
+    width: 80%;
+  }
+
+  .footer {
+    display: none;
+  }
+
+
+  .word:focus + .info{
+    cursor: pointer;
+    height: 200px;
+  }
+}
+
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 700px)
+and (-webkit-min-device-pixel-ratio: 3){
+
+  h1 {
+    font-size: 8vw;
+  }
+
+  h3 {
+    height: 120px;
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 36px;
+    width: 80%;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .word:focus + .info{
+      cursor: pointer;
+      height: 200px;
+  }
+}

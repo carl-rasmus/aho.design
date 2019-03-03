@@ -1,0 +1,152 @@
+html{
+  font-family: 'Amatic SC', cursive;
+  user-select: none;
+}
+
+body{
+  cursor: url('../img/beetle4.png'), auto;
+}
+
+
+h1{
+text-align: center;
+}
+
+p{
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  margin: 20px;
+}
+
+.first{
+
+  width: 30vw;
+  background-color: white;
+  align-items: center;
+  margin:auto;
+  position: relative;
+}
+
+.second{
+
+  width: 30vw;
+  background-color: white;
+  align-items: center;
+  margin:auto;
+}
+
+.last{
+
+  width: 30vw;
+  background-color: white;
+  align-items: center;
+  margin:auto;
+}
+
+.bugs{
+  height: 10px;
+  width: 10px;
+}
+
+.upside_down{
+  border-top: 20px;
+  width: 250px;
+  background: #09c;
+  padding:1em;
+  background-color: white;
+  display: contents;
+}
+
+h1{
+  color: black;
+  margin: 0 auto;
+  padding:0;
+  text-align:center;
+  transition: all 0.4s ease;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+h2{
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 40px;
+  margin: 0;
+  font-size: 20px;
+}
+
+.upside_down:hover h1{
+  transition: all 0.4s ease;
+  transform: scaleY(-1);
+  cursor: url('../img/beetle3.png'), auto;
+}
+
+.upside_down_inline{
+  color: red;
+  display: inline-block;
+  white-space: nowrap;
+  transition: all 0.4s ease;
+  cursor: url('../img/beetle3.png'), auto;
+}
+/*.flat{
+  color: red;
+  display: inline-block;
+  white-space: nowrap;
+  transition: all 0.4s ease;
+  cursor: url('../img/beetle3.png'), auto;
+}
+*/
+.flat{
+  color: red;
+  display: inline-block;
+  transform-origin: 50% 80%;
+  cursor: url('../img/beetle3.png'), auto;
+}
+/*
+.upside_down_inline:hover{
+  transition: all 0.4s ease;
+  transform: scaleY(-1);
+}*/
+
+.snu{
+  cursor: url('../img/beetle3.png'), auto;
+  transform: rotate(180deg);
+}
+
+.spider{
+  width: 100vw;
+}
+
+.bug{
+  margin: auto;
+  width: 200px;
+  left: 30%;
+  position: absolute;
+}
+
+.scroll{
+  color: darkgray;
+  font-size: 15px;
+  text-align: center;
+  cursor: url('../img/beetle3.png'), auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+ .mos{
+  cursor: url('../img/beetle3.png'), auto;
+  transform: scaleY(.3);
+}
+
+/*.hidden{
+  display: none;
+}
+
+.hidden:active{
+  display: block;
+}
+*/

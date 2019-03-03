@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- THIS IS A COMMENT -->
+    <!-- Document meta information goes here -->
+      <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title>DISCO</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <a href="#"><div class="plus"></div></a>
+
+    <script>
+
+    $(".plus").click(function(){
+     $(this).toggleClass("minus");
+     audio.play();
+
+    })
+
+    </script>
+<script>
+var audio = new Audio("d2d.mp3");
+audio.play();
+</script>
+  </head>
+
+  <body>
+
+    <!-- <button id="music_on" src="img/party.svg"> -->
+
+    <!-- <audio id="player" src="d2d.mp3"></audio>
+  <div>
+      <button onclick="document.getElementById('player').play()"></button>
+      <button onclick="document.getElementById('player').pause()"></button>
+  </div> -->
+
+<!--
+<audio controls="controls"><source src="d2d.mp3" type="audio/mpeg" /></audio
+  -->
+
+  <div class="tekst">
+    <h1> Disco to disco</h1>
+
+  </div>
+
+    <section id="come_down_section">
+<h2> come down ↓ </h2>
+    </section>
+
+    <section id="go_up_section">
+<h2> Go up ↑ </h2>
+    </section>
+    <script>
+      var topofDiv = $("#come_down_section").offset().top; //gets offset of header
+      var height = $("#come_down_section").outerHeight(); //gets height of header
+
+      $(window).scroll(function(){
+        if($(window).scrollTop() > (topofDiv + height)){
+           $("#come_down_section").addClass('show_section');
+          $(".tekst").addClass('hide_section');
+        }
+        //else{
+        //  if ($(window).scrollTop() < (topofDiv + height)){
+          //$("#go_up_section").removeClass('hide_section');
+        //}
+      });
+    </script>
+<!--
+  <div class="content">
+
+      <br>
+      <p>
+        ©Whirlpool Productions
+      </p>
+    </div>
+  -->
+  </body>
+</html>

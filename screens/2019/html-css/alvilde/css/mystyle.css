@@ -1,0 +1,100 @@
+/* THIS IS A COMMENT */
+/* write your css in this document */
+.rosesarered{
+  margin-top:100px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+
+}
+
+.violetsareblue{
+  margin-top:150px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  text-align: center;
+  line-height:0.5cm;
+
+}
+
+
+
+.roses{
+  animation: bounce-in-top 1.1s both;
+}
+@keyframes bounce-in-top{0%{transform:translateY(-500px);animation-timing-function:ease-in;opacity:0}38%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}55%{transform:translateY(-65px);animation-timing-function:ease-in}72%{transform:translateY(0);animation-timing-function:ease-out}81%{transform:translateY(-28px);animation-timing-function:ease-in}90%{transform:translateY(0);animation-timing-function:ease-out}95%{transform:translateY(-8px);animation-timing-function:ease-in}100%{transform:translateY(0);animation-timing-function:ease-out}}
+
+.dots{
+animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;
+animation-delay: 1s;
+color: black;
+}
+@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;
+  animation-delay: 2s;
+}
+
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+.dot1{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: yellow;
+  margin: 10px 20px 10px 10px;
+
+}
+
+.dot1:hover{animation:shake-horizontal 1s cubic-bezier(.455,.03,.515,.955) both}
+
+@keyframes shake-horizontal{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-10px)}20%,40%,60%{transform:translateX(10px)}80%{transform:translateX(8px)}90%{transform:translateX(-8px)}}
+
+.dot2{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: green;
+  margin: 10px 20px 10px 10px;
+
+}
+
+.dot2:hover{animation:shake-horizontal 1s cubic-bezier(.455,.03,.515,.955) both}
+
+
+.dot3{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: red;
+  margin: 10px 20px 10px 10px;
+
+}
+.dot3:hover{
+  animation:shake-vertical 1.2s cubic-bezier(.455,.03,.515,.955) both
+}
+
+@keyframes shake-vertical{0%,100%{transform:translateY(0)}10%,30%,50%,70%{transform:translateY(-8px)}20%,40%,60%{transform:translateY(8px)}80%{transform:translateY(6.4px)}90%{transform:translateY(-6.4px)}}
+
+.dot4{
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+  background-color: blue;
+  margin: 10px 20px 10px 10px;
+
+}
+
+.dot4:hover{animation:shake-horizontal 1s cubic-bezier(.455,.03,.515,.955) both}

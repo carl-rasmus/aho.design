@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- THIS IS A COMMENT -->
+    <!-- Document meta information goes here -->
+
+      <!-- Maaike Bakker credits on canoe illustration -->
+    <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="css/door-button.css">
+
+      <link rel="stylesheet" type="text/css" href="css/master.css">
+
+    <title>Knock knock</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Content goes here -->
+    <section class="button_section">
+        <div class="door">
+          <div class="cloud"></div>
+        </div>
+        <div class="cloud2"></div>
+      </div>
+        <div class="knock_text1">
+          Knock
+        </div>
+        <div class="knock_text2">
+          Knock
+        </div>
+
+
+    </section>
+
+    <script>
+      $('.door').click(function() {
+        $('.knock_text1').addClass('vis_text1');
+      });
+    </script>
+
+    <script>
+      $('.door').click(function() {
+        $('.knock_text2').addClass('vis_text2');
+      });
+    </script>
+
+<section class="who_there_section">
+<button class="who-there_button" type="button" name="who-there">  Who's there?
+</button>
+
+</section>
+
+<div id=canoe class="canoe_section">
+  <button class="button3" type="button" name="canoe_button">
+canoe..
+  </button>
+</div>
+
+<section class="canoe_who_section">
+<button class="canoe_who_button" type="button" name="canoe-who">  Canoe who?
+</button>
+
+</section>
+
+<script>
+  $('.door').click(function() {
+    $('.who-there_button').addClass('vis_who-there_button');
+  });
+
+  $('.who-there_button').click(function() {
+    $('.canoe_section').addClass('vis_canoe_section');
+  });
+
+  $('.canoe_who_button').click(function() {
+    $('.canoe_section').addClass('vis_canoe_section');
+  });
+
+</script>
+
+  </body>
+</html>
