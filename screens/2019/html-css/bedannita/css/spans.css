@@ -1,0 +1,57 @@
+span.text_formatting{
+  font-family: 'Jua', sans-serif;
+}
+span.layout_1{
+  position: absolute;
+  transform: translateY(-6px);
+  display: inline-block;
+}
+span.layout_2{
+  display: inline-block;
+  /* position: absolute; */
+  transform: translateY(6px) translateX(28px);
+  margin-right: 36px;
+}
+span.color{font-weight: bold;}
+span.color_red{color: crimson;}
+span.color_blue{color: dodgerblue;}
+span.color_violet{color: violet;}
+span.color_green{color: olivedrab;}
+span.color_brown{color: peru;}
+span.color_teal{color: teal;}
+
+span.animation{
+  white-space:nowrap;
+}
+
+span.animation_1, span.animation_2, span.animation_3, span.animation_4, span.animation_5, span.animation_6, span.animation_7, span.animation_8, span.animation_9{
+  display: inline-block;
+  animation: float 2s ease-in-out infinite;
+
+}
+span.animation_2{animation-delay: .1s;}
+span.animation_3{animation-delay: .2s;}
+span.animation_4{animation-delay: .3s;}
+span.animation_5{animation-delay: .4s;}
+span.animation_6{animation-delay: .5s;}
+span.animation_7{animation-delay: .6s;}
+span.animation_8{animation-delay: .7s;}
+span.animation_9{animation-delay: .8s;}
+
+
+@keyframes float {
+  0% {transform: translateY(-10px);}
+  50% {transform: translateY(10px);}
+  100% {transform: translateY(-10px);}
+}
+
+span.blinking{
+  animation: blinky 1s ease-in-out infinite;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@keyframes blinky {
+  30% {color: #333;}
+  50% {color: coral;}
+  80% {color: #333;}
+}

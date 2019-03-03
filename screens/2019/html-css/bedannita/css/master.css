@@ -1,0 +1,99 @@
+html{
+  background-color: whitesmoke;
+  font-family: 'Meera Inimai', sans-serif;
+  color: #333;
+}
+.container{
+  width: 60%;
+  padding: 5vh 5vw;
+  margin: 10vh auto;
+  background-color: white;
+  position: relative;
+}
+.header, .hipper{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+h1{
+  font-size: 3em;
+  color: #666;
+  line-height: 1em;
+  margin-top: 0;
+}
+h1 span{
+  font-size: .4em;
+  margin-bottom: 0;
+  color: #888;
+}
+h2{
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+}
+h3{
+  font-family: 'Cutive Mono', monospace;
+  color: #888;
+  margin-top: .2em;
+  text-align: right;
+  margin-top: 10px;
+}
+p{
+  font-size: 1.4em;
+}
+p.small{
+  font-size: 1em;
+}
+input[type="text"], input[type="button"]{
+  font-family: 'Meera Inimai', sans-serif;
+  font-size: 16px;
+  margin-right: 6px;
+  transform: translateY(-4px);
+}
+input[type="text"]{
+  padding: 6px;
+  padding-bottom: 0;
+  line-height: .6;
+  border: none;
+  background-color: whitesmoke;
+  border-bottom: solid 2px #666;
+  max-width: 100px;
+}
+input[type="text"]:focus{
+  border-color: dodgerblue;
+}
+input[type="button"]{
+  border: none;
+  border-radius: 3px;
+  background-color: dodgerblue;
+  color: white;
+  padding: 6px 12px;
+  padding-bottom: 2px;
+  letter-spacing: .5px;
+  cursor: pointer;
+}
+input[type="button"]:hover{
+  background-color: #0073e6;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin-left: 20px;
+  font-size: 1.15em;
+}
+@media only screen and (max-width: 768px){
+  .container{
+    width: calc(100% - 6vw);
+    padding: 2vh 3vw;
+  }
+  h1 span{
+    font-size: .3em;
+  }
+  h2{
+    font-size: 1.1em;
+  }
+  h3{
+    font-size: .9em;
+  }
+}
