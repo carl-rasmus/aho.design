@@ -1,4 +1,40 @@
 body{
-  margin: 0;
+  margin: 3%;
   font-family: 'Work Sans', sans-serif;
+}
+h1{
+  font-size: 4em;
+}
+h1.with_subheader{
+  margin-bottom: 0;
+}
+h2.subheader{
+  font-size: 1.6em;
+  color: #666;
+  margin-top: 0;
+}
+h3{
+  font-size: 2em;
+}
+h3.task_link{
+  font-weight: normal;
+  margin-bottom: 0;
+}
+h4.task_details{
+  margin-top: .5em;
+}
+a.student_link{
+  font-size: 1.6em;
+  display: inline-block;
+  line-height: 1.6;
+  margin-right: 10px;
+}
+a:hover{
+  /* text-decoration-color: black; */
+  background-color: blue;
+  color: white;
+}
+p.disclaimer{
+  margin-top: 5vh;
+  font-style: italic;
 }
