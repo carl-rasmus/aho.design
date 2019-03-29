@@ -43,6 +43,8 @@ var client = window.SanityClient({
 var query = `
   *[_type == "student"]{
     title,
+    name,
+    website
   }[0...50]`
 
 client
