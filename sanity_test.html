@@ -41,12 +41,9 @@ var client = window.SanityClient({
 
 // Fetch 50 documents of type `movie`, and select only the fields we need
 var query = `
-  *[_type == "movie"]{
+  *[_type == "student"]{
     _id,
-    title,
-    releaseDate,
-    "director": crewMembers[job == "Director"][0].person->name,
-    "poster": poster.asset->url
+    title
   }[0...50]`
 
 client
